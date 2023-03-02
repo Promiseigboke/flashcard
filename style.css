@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    margin-top: 1rem;
+}
+.top-content {
+    margin-bottom: 1rem;
+}
+.top-content h1 {
+    margin-left: 1rem;
+    text-align: left;
+    display: inline-block;
+    width: 85vw;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.top-content .top-right {
+    text-align: righ;
+    display: inline-block;
+    font-size: 15px;
+
+}
+.btn1, .btn2{
+    padding: 6px;
+    text-align: right;
+}
+.create-flashcard {
+    text-align: center;
+}
+.input1, .input2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+#question, #answer {
+   display: inline-block;
+   margin-left: -17.6rem;
+}
+#question-box, #answer-box{
+    padding: 0rem 10rem 1rem 0rem;
+}
