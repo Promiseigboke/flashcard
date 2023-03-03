@@ -13,7 +13,7 @@ main {
     margin-left: 1rem;
     text-align: left;
     display: inline-block;
-    width: 85vw;
+    width: 85%;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -29,15 +29,32 @@ main {
 }
 .create-flashcard {
     text-align: center;
+    background-color: #f4f4f4;
+    height: 100vh;
 }
-.input1, .input2 {
-    margin-bottom: 10px;
-    text-align: center;
+.form-wrapper {
+    margin-top: 0.4rem;
+    display: inline-block;
+    position: relative;
+    border: 2px solid rgb(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px #ccc;
 }
 #question, #answer {
    display: inline-block;
    margin-left: -17.6rem;
+   color: #676767;
 }
 #question-box, #answer-box{
     padding: 0rem 10rem 1rem 0rem;
+}
+.savebtn {
+     margin-left: -16rem;
+     padding: 2px;
+     margin-top: 2px;
+}
+.closetbn {
+    padding: 2px;
 }
