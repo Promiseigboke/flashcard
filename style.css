@@ -8,7 +8,7 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1rem;
 }
-main {
+/* main {
     margin-top: 1rem;
 }
 .top-content {
@@ -69,7 +69,7 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
-.flashcards {
+.flash {
    width: 400px;
    height: 200px;
    margin: 2rem 0rem 0rem 2rem;
@@ -86,4 +86,30 @@ main {
    border-top: 2px solid rgb(130, 87, 87);
    padding: 20px;
    margin: 0rem 0rem 0rem -1.3rem;
+} */
+
+.flashcard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.create {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.read,.update,.delete {
+    margin-top: 10px;
+}
+
+.read h3,.update h3,.delete h3 {
+    margin-top: 0;
+}
+
+.term-input,.fact-input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
 }
