@@ -1,4 +1,4 @@
-// Get the DOM elements
+// Get the DOM elements.
 const termInput = document.querySelector(".term-input");
 const definition = document.querySelector(".definition");
 const factInput =document.querySelector(".fact-input");
